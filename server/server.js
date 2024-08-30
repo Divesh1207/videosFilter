@@ -11,7 +11,7 @@ connectDB()
 
 // CORS Middleware with specific frontend URL
 app.use(cors({
-    origin: 'http://localhost:5173', // Allow only this origin
+    origin: 'https://videos-filter.vercel.app/', // Allow only this origin
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Allowed HTTP methods
     allowedHeaders: ['Authorization', 'Content-Type'],
     credentials: true // If you need to allow cookies or authentication headers
