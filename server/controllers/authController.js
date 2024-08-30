@@ -113,7 +113,7 @@ export const googleCallback = async (req, res) => {
         await user.save();
 
 
-        res.redirect(`http://localhost:5173/homePage?token=${refreshToken}`);
+        res.redirect(`https://videos-filter.vercel.app/homePage?token=${refreshToken}`);
     } catch (error) {
         console.error('Error during YouTube authentication:', error);
         res.status(500).json({ error: 'Failed to authenticate user' });
