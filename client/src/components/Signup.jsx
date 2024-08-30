@@ -19,7 +19,7 @@ const Signup = () => {
 
         return () => clearInterval(glitchInterval);
     }, []);
-
+ const backendUrl = import.meta.env.VITE_BACKEND_URL.replace(/\/$/, '');
     const handleOAuthResponse = () => {
         const urlParams = new URLSearchParams(window.location.search);
         const googleId = urlParams.get('googleId');
@@ -40,7 +40,7 @@ const Signup = () => {
     }, []);
 
     const handleSignup = () => {
-        window.location.href = `${import.meta.env.VITE_BACKEND_URL}/auth/google`;
+        window.location.href = `${backendUrl}/auth/google`;
     };
 
 
