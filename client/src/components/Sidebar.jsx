@@ -15,7 +15,7 @@ const Sidebar = () => {
                     throw new Error('No token found');
                 }
 
-                const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/videos/liked-videos`, {
+                const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}videos/liked-videos`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
