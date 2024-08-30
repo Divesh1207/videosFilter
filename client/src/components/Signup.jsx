@@ -40,7 +40,7 @@ const Signup = () => {
     }, []);
 
     const handleSignup = () => {
-        window.location.href = `${backendUrl}/auth/google`;
+        window.location.href = `${backendUrl}auth/google`;
     };
 
 
