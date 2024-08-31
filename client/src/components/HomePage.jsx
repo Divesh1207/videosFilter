@@ -242,20 +242,16 @@ const HomePage = () => {
 
             {/* Main Content */}
             <div className="flex-1 flex flex-col lg:w-3/4">
-                <header className="bg-gray-800 shadow-lg flex items-center p-4">
-                    {!isSidebarOpen && (
-                        <button
-                            onClick={() => setIsSidebarOpen(true)}
-                            className="text-white lg:hidden"
-                        >
-                            <FaBars size={24} />
-                        </button>
-                    )}
+              <header className="bg-gray-800 text-white p-4 shadow-md flex items-center justify-between lg:justify-center relative">
+    <button
+        onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+        className="text-white font-mono hover:text-gray-300 lg:hidden absolute left-4"
+    >
+        <FaBars size={24} />
+    </button>
+    <h1 className="text-xl font-bold mx-auto text-pink-500">V1d30F1lt3r</h1>
+</header>
 
-                    <div className="flex justify-center mb-6">
-    <h1 className="text-2xl font-bold text-white text-center"> V1d30F1lt3r</h1>
-</div>
-                </header>
 
                 {/* Chat Section */}
                 <div className="flex-1 overflow-y-auto p-4 space-y-4">
