@@ -82,10 +82,12 @@ const HomePage = () => {
                     ...prevState,
                     [prompt]: false,
                 }));
-                setMessages((prev) => [
-                    ...prev,
-                    { sender: 'results', content: response.data.likedVideos },
-                ]);
+               setMessages((prev) => [
+    ...prev,
+    { sender: 'user', content: prompt }, // Display the searched text
+    { sender: 'results', content: response.data.likedVideos },
+]);
+
                 console.log(
                     `Search results for prompt "${prompt}":`,
                     response.data.likedVideos
@@ -249,9 +251,10 @@ const HomePage = () => {
                             <FaBars size={24} />
                         </button>
                     )}
-                    <h1 className="ml-4 text-pink-500 text-lg font-semibold font-mono">
-                        Liked Videos Search
-                    </h1>
+
+                    <div className="flex justify-center mb-6">
+    <h1 className="text-2xl font-bold text-white text-center"> V1d30F1lt3r</h1>
+</div>
                 </header>
 
                 {/* Chat Section */}
@@ -268,6 +271,7 @@ const HomePage = () => {
                         onSubmit={(e) => {
                             e.preventDefault();
                             handleSearch(inputMessage);
+                            setInputMessage('');
                         }}
                         className="flex space-x-2"
                     >
