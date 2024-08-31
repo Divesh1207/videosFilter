@@ -1,9 +1,15 @@
 # 🎥 Videos Filter
-<!-- Replace with an actual anime image link -->
-![Anime Image](https://example.com/anime-image.jpg)
+ 
+
+
+<!-- Center the image and add a border for a classy look -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ff786b0f-6d99-40c4-9ce3-54e7dacb85c9" alt="Zeintsu sketch image" style="border: 2px solid #ddd; border-radius: 10px; max-width: 100%; height: auto;"/>
+</p>
 
 ## 🌟 Introducing Videos Filter
 Imagine having the ultimate tool to manage and explore your YouTube liked videos like never before. Videos Filter is a cutting-edge web application designed to elevate your YouTube experience by offering a personalized, intuitive interface for managing your favorite content. Harnessing the power of the MERN stack and Google APIs, Videos Filter ensures that your interaction with YouTube is both seamless and secure. 🚀
+
 <p align="left">
   <img src="https://img.shields.io/badge/-React-61DAFB?logo=React&logoColor=000000&style=for-the-badge" alt="React" style="margin-right: 5px;"/>
   <img src="https://img.shields.io/badge/-Express.js-000000?logo=Express&logoColor=white&style=for-the-badge" alt="Express.js" style="margin-right: 5px;"/>
@@ -14,7 +20,6 @@ Imagine having the ultimate tool to manage and explore your YouTube liked videos
 
 ## What Is Videos Filter?
 Videos Filter is your go-to platform for unlocking a new level of control and organization over your YouTube liked videos. This application is built to provide an effortless way to authenticate with Google, access your treasured content, and utilize powerful filtering tools to find exactly what you need. 🔍
-
 
 [Project Demo Link](https://github.com/user-attachments/assets/2bff82d5-ad2a-4dd5-9181-016df91dd5ab)
 
@@ -64,12 +69,10 @@ The Videos Filter project is a comprehensive solution for users who want to keep
 
 - **Frontend**: 
   - **Tailwind CSS**: A utility-first CSS framework that provides low-level utility classes to build custom designs quickly.
-    
   - **Framer Motion**: A popular library for animations in React applications, offering smooth and easy-to-implement motion for UI elements.
     
 - **Backend**:
   - **Node.js**: A JavaScript runtime built on Chrome's V8 engine, allowing for the execution of JavaScript code on the server-side.
-   
   - **Express.js**: A minimal and flexible Node.js web application framework that provides robust features for building web and mobile applications.
     
 - **Database**: 
