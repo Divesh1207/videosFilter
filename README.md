@@ -89,11 +89,3 @@ The application is designed to be intuitive and responsive, meaning it looks and
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-
-
-- Filtering Options
-The filter options interface allowing users to sort and find their favorite videos.
-
-- Responsive Design
-The application displayed on different devices, showing its responsive and user-friendly design.
-
