@@ -7,6 +7,11 @@ Imagine having the ultimate tool to manage and explore your YouTube liked videos
 Videos Filter is your go-to platform for unlocking a new level of control and organization over your YouTube liked videos. This application is built to provide an effortless way to authenticate with Google, access your treasured content, and utilize powerful filtering tools to find exactly what you need.
 
 
+https://github.com/user-attachments/assets/2bff82d5-ad2a-4dd5-9181-016df91dd5ab
+
+
+
+
 ## Table of Contents
 
 1. [Table of Contents](#table-of-contents)
@@ -14,7 +19,7 @@ Videos Filter is your go-to platform for unlocking a new level of control and or
 3. [Features](#features)
 4. [Technologies Used](#technologies-used)
 5. [License](#license)
-6. [Screenshots](#screenshots)
+
 
 ## About
 
@@ -84,14 +89,7 @@ The application is designed to be intuitive and responsive, meaning it looks and
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Screenshots
-Here are some screenshots of the Videos Filter application in action:
 
-- Login Page
-The login page where users authenticate using Google OAuth.
-
-- Liked Videos List
-The dashboard displaying the user's liked videos from YouTube.
 
 - Filtering Options
 The filter options interface allowing users to sort and find their favorite videos.
